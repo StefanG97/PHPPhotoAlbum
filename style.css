@@ -1,0 +1,48 @@
+body{
+	background:#222;	
+	color:#fff;	
+}
+
+#body{
+	background:#fff;
+	padding:10px;
+	margin: 100px auto;
+	width:70%;
+}
+#title_bar table{
+	font-family:tahoma;
+	font-size:17px;
+	width:100%;
+}
+#title_bar td{
+	padding:5px;
+}
+#title_bar table a{
+	background:#dadada;
+	padding:10px;
+	text-decoration:none;
+	color:#333;
+	display:block;
+}
+#container{
+	border:1px solid #ccc;
+	padding:10px;
+	margin:6px;
+	color:#333;
+}
+
+
+#view_box{
+	width:300px;
+	box-shadow:0 0 5px #ccc;
+	padding:5px;
+	margin: 5px;
+	float:left;
+}
+
+#view_box img{
+	width:100%;
+}
+.clear{
+	clear:both;
+}
