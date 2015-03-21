@@ -25,6 +25,7 @@ body{
 	display:block;
 }
 #container{
+	height: 600px;
 	border:1px solid #ccc;
 	padding:10px;
 	margin:6px;
@@ -33,7 +34,8 @@ body{
 
 
 #view_box{
-	width:300px;
+	width: 196px; 
+	height: 196px; 
 	box-shadow:0 0 5px #ccc;
 	padding:5px;
 	margin: 5px;
@@ -41,8 +43,9 @@ body{
 }
 
 #view_box img{
-	width:100%;
+	width:196px;
 }
 .clear{
 	clear:both;
 }
+
