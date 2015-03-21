@@ -21,11 +21,10 @@
 					
 		?>
 		
-		<a href='view.php?id=<?= $album_id; ?>'>
 			<div id="view_box">
 				<img src='uploads/<?= $pic?>' />
-				<br/>
-				<button>Browse Album</button>
+					<a href='view.php?id=<?= $album_id; ?>&name=<?= $album_name?>'>View Album</a>
+					<a href='delete_album.php?id=<?= $album_id; ?>'>Delete Album</a>
 			</div>
 		
 		</a>
