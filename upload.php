@@ -18,15 +18,14 @@
 				$file_type = $_FILES['file']['type'];
 				$file_size = $_FILES['file']['size'];
 				$file_tmp = $_FILES['file']['tmp_name'];
-				$random_name = $name;
 				
 				
 				if(empty($name) or empty($file)){
 					echo "Please Fill all the Fields <br/><br/>";
 				} else {
 					
-					move_uploaded_file($file_tmp, 'uploads/'.$random_name.'.jpg');
-					mysql_query("INSERT INTO photos VALUE('', '$name', '$album_id', '$random_name.jpg')");
+					move_uploaded_file($file_tmp, 'uploads/'.$name.'.jpg');
+					mysql_query("INSERT INTO photos VALUE('', '$name', '$album_id', '$name.jpg')");
 					
 					echo "Photo Uploaded <br/><br/>";
 				}
